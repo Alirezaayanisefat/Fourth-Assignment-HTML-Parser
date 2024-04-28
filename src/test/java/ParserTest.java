@@ -55,6 +55,7 @@ public class ParserTest {
             assertEquals(sortedCountries.get(217),c7);
         }
 
+
     @Test
     public void testSortByArea() {
         List<Country> sortedCountries = handle.sortByArea();
